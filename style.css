@@ -1,0 +1,167 @@
+body{
+    background-color: #011c32;
+    font-family: montserrat, open-sans ;
+    
+}
+
+/* Sidebar  */
+.sidebar{
+    background-color: #1f3049;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+.nav-pills{
+    margin-top: 25vh;
+}
+                /* padding for icons */
+.sidebar .nav-link{
+    padding: 5px;
+}
+.nav-link{
+    color: aqua;
+}
+
+/* Nav */
+.navbar-nav{
+    margin-left: 400px;
+}
+.navbar .nav-link{
+    color: white;
+    font-weight: 100;
+    margin-left: 55px;
+}
+
+
+/* Search */
+
+
+.search-bar{
+    width: 100%;
+    background-color: #011d31;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding: 3px;
+    color: white;
+}
+input{
+    text-indent: 22px;
+  }
+.search{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.search ion-icon {
+    position: absolute;
+    left: 0px;
+    padding: 6px 0;
+    pointer-events: none;
+    color: white;
+}
+.search .options-icon{
+    right: 5px;
+    left: auto;
+    font-size: 30px;
+    color: aqua;
+    padding: 0;
+}
+/* Content */
+.content{
+    margin: 20px 120px 20px 120px;
+}
+.content h1{
+    color: aqua;
+}
+
+img{
+    width: 23vw;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.container{
+    margin-top: 40px;
+}
+.row div{
+    margin-bottom: 10px;
+}
+.content h5{
+    color: aqua;
+}
+.content span{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.content ion-icon{
+    color: #074757;
+    margin: 0 0 -2px 5px;
+}
+/* Pagination */
+.pagination{
+    margin-top: 10px;
+}
+.pagination a{
+    background-color: #011c32;
+    color: aqua;
+    margin: 10px;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.page-item:first-child .page-link {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+ .page-item:last-child .page-link{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+.page-item{
+    border-radius: 15px;
+}
+
+
+
+
+@media (max-width:600px){
+    .content{
+        margin: auto;
+    }
+    /* sidebar */
+    .sidebar div{
+       margin-bottom: -20px; 
+    }
+    .logo-img{
+        width: 35px;
+    }
+    .nav-pills{
+        margin-top: 3vh;
+    }
+    /* collapsed nav */
+    .navbar-nav{
+        margin-left: 5px;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+/* 992 */
+@media (max-width:1336px) and (min-width:600px){
+    /* Nav */
+.navbar-nav{
+    margin-left: 50px;
+}   
+.navbar .nav-link{
+    margin-left: 30px;
+}
+
+/* sidebar */
+    .sidebar{
+        height: 100vh;
+    }
+   
+}
